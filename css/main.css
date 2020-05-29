@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.navbar{
+position: relative;
+top:-125px;
+}
+
+/* Control the left side home page */
+.left {
+  left: 0;
+  background-color: ;
+  background-image: url("../images/me3.jpg");
+  opacity: 0.6;
+position: absolute;
+
+}
+
+/* Control the left side Categories page */
+.left2 {
+  left: 0;
+  background-color: ;
+  background-image: url("../images/IMG_5283-1.jpg");
+  opacity: 0.8;
+position: absolute;
+}
+
+/* Control the left side blog archive page */
+.left3 {
+  left: 0;
+  background-color: ;
+  background-image: url("../images/three.jpg");
+  opacity: 0.8;
+position: absolute;
+}
+/* Control the left side blackchina article */
+.leftT {
+  left: 0;
+  background-color: ;
+  background-image: url("../images/qingdao.JPEG");
+  opacity: 0.9;
+position: absolute;
+}
+
+/* Control the left side the darkest place article */
+.leftM {
+  left: 0;
+  background-color: ;
+  background-image: url("../images/edited.jpg");
+  opacity: 0.8;
+position: absolute;
+}
+
+/* Control the left side bread article */
+.leftR {
+  left: 0;
+  background-color: ;
+  background-image: url("../images/IMG_2588-1.jpg");
+  opacity: 0.8;
+position: absolute;
+}
+
+/* Control the left side motherland article */
+.leftML {
+  left: 0;
+  background-color: ;
+  background-image: url("../images/motherland.jpg");
+  opacity: 0.9;
+position: absolute;
+}
+
+/* Control the left side travelhome page */
+.leftTH {
+  left: 0;
+  background-color: ;
+  background-image: url("../images/beach2.JPG");
+  opacity: 0.9;
+position: absolute;
+}
+
+/* Control the left side myinnerthoughts home page */
+.leftIT {
+  left: 0;
+  background-color: ;
+  background-image: url("../images/lost.jpg");
+  opacity: 0.9;
+position: absolute;
+
+}
+
+/* Control the left side randomhome page */
+.leftRG {
+  left: 0;
+  background-color: ;
+  background-image: url("../images/random2.jpg");
+  opacity: 0.9;
+position: absolute;
+color:white;
+text-shadow: 2px 2px 4px #000000;
+}
+
+/* Control the left side on all pages title of the blog */
+.left-section-title{
+  color:black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Control the left side home page "my name is Divine" */
+.opening{
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+}
+/* Control the left side logo on all pages */
+.logo{
+  color:white;
+ text-decoration: underline overline;
+text-shadow: 2px 2px 4px #000000;
+margin: 10px;
+}
+
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: white;
+
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.right-section-wrapper{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #fff;
+    margin: 30px;
+}
+
+.main-content-wrapper{
+    display: block;
+    max-width: 700px;
+    margin-right: 0px;
+    margin-left: auto;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+/* Style the image inside the centered container, if needed */
+.container-fluid {
+  padding-top: 30px;
+  position: relative;
+  top:-80px;
+}
+/* Style the image inside the centered container, if needed */
+.container-fluid2{
+  padding-top:20px;
+  padding-bottom: -50px;
+}
+/* Style the image inside the centered container, if needed */
+.container-fluid3{
+  padding-top: 20px;
+}
+
+/* Control the right side my Categories page */
+.w3-container{
+  margin: 40px;
+}
+
+.field {
+    height: 50px;
+    margin-bottom: 18px;
+    padding-left: 0px;
+    border-style: solid;
+    border-width: 0px 0px 2px;
+    border-color: #000 #000 #ebebeb;
+    -webkit-transition: border 200ms ease;
+    transition: border 200ms ease;
+}
+
+.w-input, .w-select {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #225;
+}
+
+.field.area {
+    height: 200px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style the image in blackchina article */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other blackchina article */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns blackchina article */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other blackchina article */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+/* Style blog archive */
+.blog-post {
+    position: relative;
+    margin: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #f0f0f0;
+}
+/* Style blog archive */
+.blog-post-image-link-block {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: #000;
+    background-image: url("/..images/qingdao.JPEG");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.footer{
+    padding-top: 55px;
+    padding-bottom: 50px;
+    background-color: #f7f7f7;
+    height: -400px;
+    position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: red;
+color: white;
+text-align: center;
+}
+}
